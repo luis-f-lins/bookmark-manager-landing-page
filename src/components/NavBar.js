@@ -7,7 +7,7 @@ export default class NavBar extends React.Component {
     return (
       <div className="container">
         <img className="logo" src={LogoBookmark} alt="Logo"></img>
-        <div className="link container">
+        <div className="link-container">
           <a className="link" href="#">
             Features
           </a>
