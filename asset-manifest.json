@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bookmark-manager-landing-page/static/css/main.370c7d0c.chunk.css",
+    "main.js": "/bookmark-manager-landing-page/static/js/main.ef0ef21d.chunk.js",
+    "main.js.map": "/bookmark-manager-landing-page/static/js/main.ef0ef21d.chunk.js.map",
+    "runtime-main.js": "/bookmark-manager-landing-page/static/js/runtime-main.c08e033d.js",
+    "runtime-main.js.map": "/bookmark-manager-landing-page/static/js/runtime-main.c08e033d.js.map",
+    "static/js/2.3d8b8701.chunk.js": "/bookmark-manager-landing-page/static/js/2.3d8b8701.chunk.js",
+    "static/js/2.3d8b8701.chunk.js.map": "/bookmark-manager-landing-page/static/js/2.3d8b8701.chunk.js.map",
+    "index.html": "/bookmark-manager-landing-page/index.html",
+    "precache-manifest.ae6372b2f3cd9f1602c614e083f79c42.js": "/bookmark-manager-landing-page/precache-manifest.ae6372b2f3cd9f1602c614e083f79c42.js",
+    "service-worker.js": "/bookmark-manager-landing-page/service-worker.js",
+    "static/css/main.370c7d0c.chunk.css.map": "/bookmark-manager-landing-page/static/css/main.370c7d0c.chunk.css.map",
+    "static/js/2.3d8b8701.chunk.js.LICENSE.txt": "/bookmark-manager-landing-page/static/js/2.3d8b8701.chunk.js.LICENSE.txt",
+    "static/media/illustration-hero.svg": "/bookmark-manager-landing-page/static/media/illustration-hero.dfa0cd82.svg",
+    "static/media/logo-bookmark.svg": "/bookmark-manager-landing-page/static/media/logo-bookmark.53989d2a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c08e033d.js",
+    "static/js/2.3d8b8701.chunk.js",
+    "static/css/main.370c7d0c.chunk.css",
+    "static/js/main.ef0ef21d.chunk.js"
+  ]
+}
