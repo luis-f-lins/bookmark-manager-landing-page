@@ -1,23 +1,26 @@
 import React from "react";
-import "./NavBar.scss";
+import styles from "./NavBar.module.scss";
+import variables from "../App.scss";
 import LogoBookmark from "../assets/logo-bookmark.svg";
 
 export default class NavBar extends React.Component {
   render() {
     return (
-      <div className="container">
-        <img className="logo" src={LogoBookmark} alt="Logo"></img>
-        <div className="link-container">
-          <a className="link" href="#">
+      <div className={styles.container}>
+        <a href="/#">
+          <img alt="Logo" className={styles.logo} src={LogoBookmark}></img>
+        </a>
+        <div className={styles["link-container"]}>
+          <a className={styles.link} href="/#">
             Features
           </a>
-          <a className="link" href="#">
+          <a className={styles.link} href="/#">
             Pricing
           </a>
-          <a className="link" href="#">
+          <a className={styles.link} href="/#">
             Contact
           </a>
-          <a className="login" href="#">
+          <a className={styles.login} href="/#">
             Login
           </a>
         </div>

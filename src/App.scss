@@ -16,3 +16,10 @@ $very-dark-blue: hsl(229, 31%, 21%);
   text-align: center;
   margin: 40px 10% 0;
 }
+
+:export {
+  softBlue: $soft-blue;
+  softRed: $soft-red;
+  grayishBlue: $grayish-blue;
+  veryDarkBlue: $very-dark-blue;
+}
