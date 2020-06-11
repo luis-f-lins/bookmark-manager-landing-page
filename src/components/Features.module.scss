@@ -1,0 +1,72 @@
+@import "../App.scss";
+
+.container {
+  margin-top: 218px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: $very-dark-blue;
+  font-family: $primary-font;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.subtitle {
+  color: $grayish-blue;
+  font-family: $primary-font;
+  font-size: 20px;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+  margin: 25px 0;
+  text-align: center;
+  width: 570px;
+}
+
+.feature-options {
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+}
+
+.featureOption {
+  cursor: pointer;
+  width: 244px;
+  color: $grayish-blue;
+  font-family: $primary-font;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  line-height: 30px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.orangeHighlight {
+  width: 244px;
+  height: 4px;
+  background-color: $orange-highlight;
+  position: relative;
+  transition: left 0.25s ease-in-out;
+
+  &.feature-1 {
+    left: -244px;
+  }
+  &.feature-2 {
+    left: 0px;
+  }
+  &.feature-3 {
+    left: 244px;
+  }
+}
+
+.separator {
+  background-color: $grayish-blue;
+  width: 732px;
+  height: 1px;
+  margin-bottom: 50px;
+}

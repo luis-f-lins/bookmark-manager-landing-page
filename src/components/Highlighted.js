@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Highlighted.module.scss";
 import IllustrationHero from "../assets/illustration-hero.svg";
-import variables from "../App.scss";
 
 export default class Highlighted extends React.Component {
   render() {

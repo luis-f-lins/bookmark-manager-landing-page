@@ -4,27 +4,42 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 150px;
+  width: 100%;
+  margin-bottom: 200px;
 }
 
 .left-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  width: calc(40vw - 60px);
+  align-items: flex-start;
+  left: 0;
+  position: absolute;
 }
 
 .right-content {
-  position: absolute;
-  right: 0;
-  top: calc(295px - 10vw);
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(25vw + 100px);
+  left: calc(54vw - 100px);
+  top: calc(10vw - 10px);
+  position: relative;
+}
+
+.blue-shape {
+  background-color: $soft-blue;
+  width: calc(46vw - 50px);
+  height: 24vw;
+  position: relative;
+  top: 140px;
+  border-top-right-radius: 250px;
+  border-bottom-right-radius: 250px;
 }
 
 .title {
   color: $very-dark-blue;
   font-family: $primary-font;
-  font-size: 50px;
+  font-size: 32px;
   font-weight: 500;
   text-align: left;
 }
@@ -39,11 +54,6 @@
   text-align: left;
 }
 
-.links {
-  display: flex;
-  margin-top: 24px;
-}
-
 .button {
   -webkit-box-shadow: 0px 2px 5px 2px $soft-blue-shadow; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow: 0px 2px 5px 2px $soft-blue-shadow; /* Firefox 3.5 - 3.6 */
@@ -53,37 +63,19 @@
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.2px;
-  margin-top: -12px;
+  margin-top: 5px;
   text-decoration: none;
   padding: 14px 26px;
   margin-right: 15px;
-
-  &.chrome {
-    background-color: $soft-blue;
-    color: white;
-  }
-
-  &.firefox {
-    background-color: rgba(240, 240, 240, 0.7);
-    color: #555;
-  }
-}
-
-.blue-shape {
   background-color: $soft-blue;
-  width: calc(41vw - 50px);
-  height: 22vw;
-  position: relative;
-  right: -30%;
-  top: 180px;
-  border-top-left-radius: 250px;
-  border-bottom-left-radius: 250px;
+  color: white;
 }
 
 .image {
   z-index: 2;
   position: relative;
-  top: calc(-31vw + 140px);
-  width: 46vw;
-  max-width: 670px;
+  top: calc(-31vw + 160px);
+  left: calc(19vw - 100px);
+  // width: 36vw;
+  // max-width: 537px;
 }

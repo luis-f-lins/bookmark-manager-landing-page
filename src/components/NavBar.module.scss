@@ -9,15 +9,15 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
-  width: 450px;
 }
 
 .link {
   color: $very-dark-blue;
   font-family: $primary-font;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  margin-left: 50px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -35,10 +35,11 @@
   border-radius: 5px;
   color: white;
   font-family: $primary-font;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   letter-spacing: 2px;
-  margin-top: -12px;
+  margin-left: 50px;
+  margin-top: -14px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 12px 32px;
